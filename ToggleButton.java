@@ -42,6 +42,7 @@ import pub.kanzhibo.app.R;
         <attr name="tbAnimate" format="reference|boolean"/>
         <attr name="tbAsDefaultOn" format="reference|boolean"/>
         </declare-styleable>*/
+//需要引用的library compile 'com.facebook.rebound:rebound:0.3.8'
 public class ToggleButton extends View {
     private SpringSystem springSystem;
     private Spring spring;
